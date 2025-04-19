@@ -18,11 +18,10 @@ class Logger:
         self.log("FATAL", message)
 
 
-# მაგალითი
 if __name__ == "__main__":
     logger = Logger()
-    logger.debug("დამატებულია debug დონე")
-    logger.info("ეს არის info დონე")
-    logger.warn("გაფრთხილება: warn დონე")
-    logger.error("შეცდომა: error დონე")
-    logger.fatal("კრიტიკული შეცდომა: fatal დონე")
+    logger.debug("debug დონე")
+    logger.info("info დონე")
+    logger.warn("warn დონე")
+    logger.error("error დონე")
+    logger.fatal("fatal დონე")
